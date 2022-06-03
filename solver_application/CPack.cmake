@@ -7,7 +7,7 @@ set(CPACK_PACKAGE_NAME "solver")
 option(GENERATOR "")
 
 if(${GENERATOR} MATCHES BIN)
-        set(CPACK_DEBIAN_PACKAGE_MAINTAINER "jorikovsky")
+        set(CPACK_DEBIAN_PACKAGE_MAINTAINER "VonenZinainn")
         install(TARGETS solver DESTINATION bin)
 endif()
 
