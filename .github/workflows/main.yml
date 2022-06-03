@@ -6,11 +6,11 @@ on:
       - master
 
 jobs:
-  test_usual_work:
+  Testing:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Git clone my repo
+    - name: Git clone repo
       uses: actions/checkout@v1
       
     - name: Check cmake
