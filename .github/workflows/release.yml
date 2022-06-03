@@ -37,7 +37,7 @@ jobs:
     - name: Prepare environment
       run : |
         cmake --version
-    - name: Build achive files
+    - name: Build archive files
       run : |
         mkdir cmake && cd cmake
         cmake -DGENERATOR=ARC ..
@@ -70,7 +70,7 @@ jobs:
     needs: Make_GitHub_Release
     runs-on: ubuntu-latest
     steps:
-    - name: Git clone my repo
+    - name: Git clone repo
       uses: actions/checkout@v1
 
     - name: Prepare environment
